@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="facebook"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="330dp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:hint="Email Or Phone"
+        android:layout_below="@+id/font"
+        android:paddingStart="10dp"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="330dp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText"
+        android:paddingStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/button"
+        android:layout_width="330dp"
+        android:background="@color/blue2"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:hint="Log In"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/editText2"
+        android:paddingStart="128dp"
+        android:textColorHint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/font2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="SignUp for Facebook"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        />
+
+</RelativeLayout>
